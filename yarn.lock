@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@axia-js/dev@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@axia-js/dev@npm:1.1.0"
+"@axia-js/dev@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@axia-js/dev@npm:0.1.0"
   dependencies:
     "@babel/cli": ^7.15.4
     "@babel/core": ^7.15.5
@@ -95,7 +95,7 @@ __metadata:
     axia-exec-rollup: scripts/axia-exec-rollup.cjs
     axia-exec-tsc: scripts/axia-exec-tsc.cjs
     axia-exec-webpack: scripts/axia-exec-webpack.cjs
-  checksum: 79a26792a8ddf24bd827867c181ba61eb57f71cb40a6161707092348c17ca970ad0031f37283c49d547cefd6c4e47aa12d83090b11d3e4652a18de589867378b
+  checksum: 720ae9696b893319074298c7707eae523d3ee8e514b5ebf73884e2882682137f718677f320a9f3a0c6b87d0b6aabfe6ae4c158142bc9d059861d7528b029ae3a
   languageName: node
   linkType: hard
 
@@ -103,7 +103,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@axia-js/ts@workspace:."
   dependencies:
-    "@axia-js/dev": ^1.1.0
+    "@axia-js/dev": 0.1.0
     "@babel/core": ^7.15.5
     "@types/chrome": ^0.0.157
     "@types/node": ^16.9.1
